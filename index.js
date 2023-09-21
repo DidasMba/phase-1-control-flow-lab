@@ -18,8 +18,7 @@ function ternaryCheckCity(city){
        return "NO go";
   }
 }
-
-function switchOnCharmFromTip(){
+function switchOnCharmFromTip(tipAMount){
   // Write your code here!
 if (tipAMount ===  'genious'){
   return "thank you so much";

@@ -5,15 +5,15 @@
     "passes": 3,
     "pending": 0,
     "failures": 5,
-    "start": "2023-09-21T16:50:05.912Z",
-    "end": "2023-09-21T16:50:06.658Z",
-    "duration": 746
+    "start": "2023-09-21T16:57:03.569Z",
+    "end": "2023-09-21T16:57:04.034Z",
+    "duration": 465
   },
   "tests": [
     {
       "title": "gives customers a free sample if the ride is less than or equal to 400 feet",
       "fullTitle": "index.js scuberGreetingForFeet() gives customers a free sample if the ride is less than or equal to 400 feet",
-      "duration": 1,
+      "duration": 0,
       "currentRetry": 0,
       "err": {}
     },
@@ -34,7 +34,7 @@
     {
       "title": "returns \"Ok, sounds good.\" when the city is NYC",
       "fullTitle": "index.js ternaryCheckCity() returns \"Ok, sounds good.\" when the city is NYC",
-      "duration": 1,
+      "duration": 0,
       "currentRetry": 0,
       "err": {}
     },
@@ -55,7 +55,7 @@
     {
       "title": "should return \"Thank you.\" if the tip is not as generous",
       "fullTitle": "index.js switchOnCharmFromTip() should return \"Thank you.\" if the tip is not as generous",
-      "duration": 1,
+      "duration": 0,
       "currentRetry": 0,
       "err": {}
     },
@@ -72,7 +72,7 @@
     {
       "title": "returns \"Ok, sounds good.\" when the city is NYC",
       "fullTitle": "index.js ternaryCheckCity() returns \"Ok, sounds good.\" when the city is NYC",
-      "duration": 1,
+      "duration": 0,
       "currentRetry": 0,
       "err": {}
     },
@@ -93,7 +93,7 @@
     {
       "title": "should return \"Thank you.\" if the tip is not as generous",
       "fullTitle": "index.js switchOnCharmFromTip() should return \"Thank you.\" if the tip is not as generous",
-      "duration": 1,
+      "duration": 0,
       "currentRetry": 0,
       "err": {}
     },
@@ -109,7 +109,7 @@
     {
       "title": "gives customers a free sample if the ride is less than or equal to 400 feet",
       "fullTitle": "index.js scuberGreetingForFeet() gives customers a free sample if the ride is less than or equal to 400 feet",
-      "duration": 1,
+      "duration": 0,
       "currentRetry": 0,
       "err": {}
     },
