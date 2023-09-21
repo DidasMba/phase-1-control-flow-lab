@@ -5,15 +5,15 @@
     "passes": 3,
     "pending": 0,
     "failures": 5,
-    "start": "2023-09-21T16:57:03.569Z",
-    "end": "2023-09-21T16:57:04.034Z",
-    "duration": 465
+    "start": "2023-09-21T16:59:00.669Z",
+    "end": "2023-09-21T16:59:01.150Z",
+    "duration": 481
   },
   "tests": [
     {
       "title": "gives customers a free sample if the ride is less than or equal to 400 feet",
       "fullTitle": "index.js scuberGreetingForFeet() gives customers a free sample if the ride is less than or equal to 400 feet",
-      "duration": 0,
+      "duration": 1,
       "currentRetry": 0,
       "err": {}
     },
@@ -48,23 +48,41 @@
     {
       "title": "should return \"Thank you so much.\" if the tip is generous",
       "fullTitle": "index.js switchOnCharmFromTip() should return \"Thank you so much.\" if the tip is generous",
-      "duration": 0,
+      "duration": 1,
       "currentRetry": 0,
-      "err": {}
+      "err": {
+        "message": "expected 'Bye' to equal 'Thank you so much.'",
+        "showDiff": true,
+        "actual": "Bye",
+        "expected": "Thank you so much.",
+        "stack": "AssertionError: expected 'Bye' to equal 'Thank you so much.'\n    at Context.<anonymous> (test/indexTest.js:28:51)\n    at process.processImmediate (node:internal/timers:476:21)"
+      }
     },
     {
       "title": "should return \"Thank you.\" if the tip is not as generous",
       "fullTitle": "index.js switchOnCharmFromTip() should return \"Thank you.\" if the tip is not as generous",
       "duration": 0,
       "currentRetry": 0,
-      "err": {}
+      "err": {
+        "message": "expected 'Thank you' to equal 'Thank you.'",
+        "showDiff": true,
+        "actual": "Thank you",
+        "expected": "Thank you.",
+        "stack": "AssertionError: expected 'Thank you' to equal 'Thank you.'\n    at Context.<anonymous> (test/indexTest.js:32:58)\n    at process.processImmediate (node:internal/timers:476:21)"
+      }
     },
     {
       "title": "should return \"Bye.\" if anything else",
       "fullTitle": "index.js switchOnCharmFromTip() should return \"Bye.\" if anything else",
       "duration": 0,
       "currentRetry": 0,
-      "err": {}
+      "err": {
+        "message": "expected 'Bye' to equal 'Bye.'",
+        "showDiff": true,
+        "actual": "Bye",
+        "expected": "Bye.",
+        "stack": "AssertionError: expected 'Bye' to equal 'Bye.'\n    at Context.<anonymous> (test/indexTest.js:36:64)\n    at process.processImmediate (node:internal/timers:476:21)"
+      }
     }
   ],
   "pending": [],
@@ -86,30 +104,48 @@
     {
       "title": "should return \"Thank you so much.\" if the tip is generous",
       "fullTitle": "index.js switchOnCharmFromTip() should return \"Thank you so much.\" if the tip is generous",
-      "duration": 0,
+      "duration": 1,
       "currentRetry": 0,
-      "err": {}
+      "err": {
+        "message": "expected 'Bye' to equal 'Thank you so much.'",
+        "showDiff": true,
+        "actual": "Bye",
+        "expected": "Thank you so much.",
+        "stack": "AssertionError: expected 'Bye' to equal 'Thank you so much.'\n    at Context.<anonymous> (test/indexTest.js:28:51)\n    at process.processImmediate (node:internal/timers:476:21)"
+      }
     },
     {
       "title": "should return \"Thank you.\" if the tip is not as generous",
       "fullTitle": "index.js switchOnCharmFromTip() should return \"Thank you.\" if the tip is not as generous",
       "duration": 0,
       "currentRetry": 0,
-      "err": {}
+      "err": {
+        "message": "expected 'Thank you' to equal 'Thank you.'",
+        "showDiff": true,
+        "actual": "Thank you",
+        "expected": "Thank you.",
+        "stack": "AssertionError: expected 'Thank you' to equal 'Thank you.'\n    at Context.<anonymous> (test/indexTest.js:32:58)\n    at process.processImmediate (node:internal/timers:476:21)"
+      }
     },
     {
       "title": "should return \"Bye.\" if anything else",
       "fullTitle": "index.js switchOnCharmFromTip() should return \"Bye.\" if anything else",
       "duration": 0,
       "currentRetry": 0,
-      "err": {}
+      "err": {
+        "message": "expected 'Bye' to equal 'Bye.'",
+        "showDiff": true,
+        "actual": "Bye",
+        "expected": "Bye.",
+        "stack": "AssertionError: expected 'Bye' to equal 'Bye.'\n    at Context.<anonymous> (test/indexTest.js:36:64)\n    at process.processImmediate (node:internal/timers:476:21)"
+      }
     }
   ],
   "passes": [
     {
       "title": "gives customers a free sample if the ride is less than or equal to 400 feet",
       "fullTitle": "index.js scuberGreetingForFeet() gives customers a free sample if the ride is less than or equal to 400 feet",
-      "duration": 0,
+      "duration": 1,
       "currentRetry": 0,
       "err": {}
     },

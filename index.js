@@ -18,15 +18,15 @@ function ternaryCheckCity(city){
        return "NO go";
   }
 }
-function switchOnCharmFromTip(tipAMount){
+function switchOnCharmFromTip(tipAmount) {
   // Write your code here!
-if (tipAMount ===  'genious'){
-  return "thank you so much";
-}else if (tipAMount === 'not as generous'){
-  return "Thank you";
-}else {
-return "Bye";
-}
+  if (tipAmount === 'generous') {
+    return "Thank you so much.";
+  } else if (tipAmount === 'not as generous') {
+    return "Thank you.";
+  } else {
+    return "Bye.";
+  }
 }
 
 
